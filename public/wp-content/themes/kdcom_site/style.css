@@ -1,0 +1,62 @@
+/*
+  Theme Name: KDCom_Site
+  Author: Anu Kulshrestha
+  Version: 1.0
+  Author URI: http://kdcom.ayntechnologies.com
+  Description: CSS for theme KDCom_site ...
+
+*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #e9f3eb;
+}
+header h1 {
+  background-color: #145a32;
+  color: #e9f3eb;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1%;
+  padding-bottom: 0;
+}
+
+header h1 a,
+header h1 a:hover {
+  color: #e9f3eb;
+  text-decoration: none;
+}
+
+#sidebar_left {
+  background-color: #ace4b3;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 2%;
+  padding-right: 1%;
+  min-height: 500px;
+  box-sizing: border-box;
+  padding-top: 3%;
+}
+
+#sidebar_right {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ul.menu {
+  list-style-type: none;
+  padding-left: 3%;
+}
+
+ul.menu li a {
+  color: #145a32;
+}
+
+footer {
+  min-height: 150px;
+  background-color: #e9f3eb;
+}
